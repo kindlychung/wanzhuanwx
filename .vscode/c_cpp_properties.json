@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "defines": [],
+            "compilerPath": "/usr/bin/clang",
+            "includePath": [
+                "${default}",
+                "${workspaceFolder}/build/include"
+            ]
+        }
+    ],
+    "version": 4
+}
