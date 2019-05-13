@@ -22,7 +22,7 @@ class wanzhuanwxConan(ConanFile):
     options = {"shared": [True, False]}
     default_options = "shared=False"
     requires = ("docopt/0.6.2@conan/stable",
-                "wxwidgets/3.1.1@jzien/dev")
+                "wxwidgets/3.1.2@jzien/dev")
     generators = "cmake"
     exports_sources = "src/*"
 
